@@ -92,7 +92,7 @@ export const ProductGrid = ({
                       }
                       <h3 className="mt-1 font-medium leading-snug">{p.name}</h3>
                       <div className="mt-1 text-sm text-slate-600">
-                        In stock · Ships 3–5 days
+                        In stock
                       </div>
                       <div className="mt-4 flex items-center justify-between self-end">
                         <div className="text-lg font-semibold">

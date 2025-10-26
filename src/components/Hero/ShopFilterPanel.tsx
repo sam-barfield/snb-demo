@@ -48,7 +48,7 @@ export const ShopFilterPanel = ({
                 <div className="flex gap-2 flex-col md:flex-row">
                     <div className="relative flex-1">
                         <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500" />
-                        <Input placeholder="Search products, e.g. photo eye" className="pl-9 text-sm" value={query} onChange={(e) => setQuery(e.target.value)} />
+                        <Input placeholder="Search products, e.g. photo eye" className="pl-9 text-sm bg-white" value={query} onChange={(e) => setQuery(e.target.value)} />
                     </div>
                     <div className="flex justify-between md:block">
                         <SortAndFilter sort={sort} setSort={setSort} maxPrice={maxPrice} setMaxPrice={setMaxPrice} inStockOnly={inStockOnly} setInStockOnly={setInStockOnly}/>

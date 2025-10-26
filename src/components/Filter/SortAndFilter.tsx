@@ -23,7 +23,7 @@ export const SortAndFilter = ({
     return (
         <>
             <Select value={sort} onValueChange={setSort}>
-                <SelectTrigger className="w-full md:w-[170px]">
+                <SelectTrigger className="w-full md:w-[170px] bg-white">
                     <SelectValue placeholder="Sort"/>
                 </SelectTrigger>
                 <SelectContent>
